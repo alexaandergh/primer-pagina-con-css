@@ -1,0 +1,125 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+}
+.body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-colorido-patron-jeringas-animadas_18591-7708.jpg");
+    background-size: auto;
+    position: relative;
+    margin: 0px;
+}
+.fondoclaro{
+    background: linear-gradient(rgb(223, 180, 204), rgb(223, 210, 204), white );
+    margin: 0px;
+
+}
+
+  h1{
+    font-size: 60px ;
+    font-weight: 400px;
+    text-align: right;
+    color: white;
+    text-shadow: 0.1em 0em 0.05em black;
+}
+h2{
+    width: 400px;
+    font-size: 30px;
+}
+h3{
+    color: black;
+    background-color: none;
+    background-size: contain;
+    font-size: 30px;
+    float: left;
+}
+h2{
+    color: black;
+    background-color: white;
+    background-size: contain;
+    background-size: auto;
+}
+.body p{
+    color: black;
+    background-color: white;
+    background-size: contain;
+    background-size: auto;
+}
+p{
+    width: fit-content;
+    font-size: 18px;
+    background-size: contain;
+    background-size: auto;
+}
+.enfermera{
+    width: 250px;
+    display: inline;
+}
+.button{
+    color: black;
+    background-color: white;
+    transform-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    width: 600px;
+    height: 50px;
+    border-radius: 35%;
+    border-color: rgb(61, 226, 238);
+}
+.flotar{
+    width: 700px;
+    height: 150px;
+    float: left;
+    align-items: center;
+    display: flex;
+}
+.comida1{
+    width: 300px;
+    height: 200px;
+    float: unset;
+}
+.recomendaciones{
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    float: left;
+    background: linear-gradient(white, rgb(223, 210, 204), rgb(223, 180, 204) );    
+    align-items: center;
+    display: flex;
+}
+.recomendaciones2 li{
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid white;
+    list-style: none;
+    float: inline-start;
+}
+.fondoclaro2{
+    background: linear-gradient(rgb(158, 217, 245), rgb(158, 255, 245), white );
+    margin: 0px;
+
+}
+.fondoclaro2 p{
+    float: inline-start;
+}
+.telefono{
+    width: 200px;
+    height: 300px;
+    background: linear-gradient(gray, white);
+    color: rgb(61, 226, 238);
+    float: inline-start;
+    margin: 50px;
+    border: 1px dotted black;
+    position: relative;
+}
+.telefono p{
+    -webkit-text-stroke: .2px black;
+}
+.pie{
+    text-align: center;
+    background-color: gray;
+    clear: both;
+    padding: 15px;
+    color: white;
+}
